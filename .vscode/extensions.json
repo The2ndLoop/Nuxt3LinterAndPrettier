@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "mosapride.zenkaku",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "nuxtr.nuxtr-vscode"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  // ターミナルをかなり前まで遡れるようにする設定
+  "terminal.integrated.scrollback": 100000,
+  // 空白文字を表示する
+  "editor.renderWhitespace": "boundary",
+  // ブラケットのプロックをわかりやすくする
+  "editor.guides.bracketPairs": true,
+  // セーブ時フォーマット
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  "stylelint.validate": ["css", "scss", "vue"],
+  "eslint.validate": ["js", "ts", "vue"],
+  // "defineNuxtConfig"に赤波線が出る問題を回避
+  "typescript.tsdk": "node_modules/typescript/lib",
+  // Code Spell Checkerに無視させる単語
+  "cSpell.ignoreWords": ["stylelint", "nuxt", "nuxtjs"]
+}
